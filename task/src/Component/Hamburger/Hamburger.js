@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Hamburger.css";
 import { Container, Navbar } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Sidenav from "./Sidenav/Sidenav";
 import logo from '../Image/logo.png'
+import Sidenav from "../Sidenav/Sidenav";
 
 export const Context = React.createContext();
 
@@ -23,7 +23,7 @@ function Hamburger() {
             </h1>
           </Container>
         </Navbar>
-        {view ? <Sidenav /> : ""}
+        {view ? <Sidenav/> : ""}
       </Container>
     </Context.Provider>
   );
