@@ -1,3 +1,15 @@
 .menu{
-    color: white;
+    color: rgba(137, 43, 226, 0.863);
+    background-color:rgba(183, 129, 233, 0.616) ;
+    height: 55px;
+    width: 55px;
+    border-radius: 20px;
+}
+.nav{
+    background-color: #fff;
+}
+#logo{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(137, 43, 226, 0.863);
 }
