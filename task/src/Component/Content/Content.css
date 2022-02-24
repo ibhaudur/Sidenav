@@ -1,0 +1,18 @@
+.content{
+    background-color: rgba(183, 129, 233, 0);
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    min-height: 82vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.welcome{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgba(137, 43, 226, 0.863);
+}
+.pro{
+    font-weight: 500;
+    color: crimson;
+}

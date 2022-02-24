@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./Sidenav.css";
 import { Container, Row, Col } from "react-bootstrap";
-// import Content from "../Content/Content";
 import { MdOutlineLogin } from "react-icons/md";
 import { FaRegIdBadge } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Content from "../Content/Content";
 
 function Sidenav() {
-  const [cont, setcont] = useState([
+  const [cont] = useState([
     { mn: "Typography" },
     { mn: "Color" },
     { mn: "Shadow" },
@@ -68,7 +68,7 @@ function Sidenav() {
             </div>
           </Col>
           <Col xl={9}>
-        
+                <Content val={a}/>
           </Col>
         </Row>
       </Container>
